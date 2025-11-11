@@ -57,7 +57,7 @@ resource "aws_instance" "demo_ec2" {
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.demo_sg.id]
 
-  key_name = "key-demo"
+  key_name = "demo-key"
 
   monitoring = true
 
